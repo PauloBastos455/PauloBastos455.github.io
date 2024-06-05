@@ -37,7 +37,7 @@ window.onscroll = function(){
     }
     
 }
-setInterval(proxImagem, 5000);
+// setInterval(proxImagem, 5000);
 
 
 
