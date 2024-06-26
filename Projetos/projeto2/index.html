@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo API IBGE</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-color: rgba(0, 94, 202, 0.774);
+            gap: 10px; /* Adicionado para espaçamento entre os selects */
+            padding: 20px; /* Adicionado para melhor aparência */
+        }
+        select {
+            height: 50px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <select name="pais" id="pais">
+        <option value="0" disabled selected>Selecione um país</option>
+    </select>
+
+    <select name="uf" id="uf">
+        <option value="0" disabled selected>Selecione um estado</option>
+    </select>
+    
+    <select name="cidade" id="cidade">
+        <option value="0" disabled selected>Selecione uma cidade</option>
+    </select>
+</body>
+</html>
+<!-- <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgba(0, 94, 202, 0.774);
+    }
+    select{
+        height: 50px;
+        font-size: larger;
+    }
+</style>
+</head>
+<body>
+<select name="pais" id="pais" placeholder="País">
+    <option value="0"></option>
+</select>
+
+<select name="uf" id="uf">
+    <option value="0"></option>
+</select>
+
+<select name="cidade" id="cidade">
+    <option value="0"></option>
+</select> -->

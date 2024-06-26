@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>Ajax Modal</title>
+    <style>
+a,button {
+            background-color: #010101;
+            text-decoration: none;
+            font-weight: bolder;
+            margin: 10px;
+            font-size: large;
+            color: #FAFAFA;
+            box-shadow: 0 0 20px 7px #4c59a78f;
+            text-align: center;
+            padding: 10px;
+            font-weight: 500;
+            transition: color 0.5s ease, font-size 0.5s ease, transform 0.5s, box-shadow 0.5s ease;
+        }
+        a:hover {
+            color: #b4f2ff;
+            box-shadow: 0 0 20px 7px #6c75ab8f;
+            transform: scale(1.05);
+        }
+        a:active {
+            color: #b4f2ff;
+            box-shadow: 0 0 20px 7px #6c75ab8f;
+            transform: scale(0.9);
+        }
+        form {
+            background: linear-gradient(to right, #5A646D9c, #4d56609c, #393d509c);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+            padding: 0 15px 15px 15px;
+            border-radius: 12px;
+            border: 1px solid #0067ac;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            box-shadow: 15px 10px 10px #001aac70;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            background-image: url(./img/DD.jpg);
+            background-color: #010101;
+            background-repeat: no-repeat;
+            background-size: 1000px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+
+    
+        <button data-toggle="modal" data-target="#emp-modal">
+            Clique aqui Para um presente
+        </button>
+        
+        <div id="emp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+             <div class="modal-body">
+                <img src="./img/presente.jpg" alt="">
+
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+             </div>
+          </div>
+        </div>
+        </div>
+        
+        
+        <a href="./index.html">VOLTAR A PÁGINA PRINCIPAL</a>
+
+    
+    
+</body>
